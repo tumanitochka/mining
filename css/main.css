@@ -81,6 +81,7 @@ main {
     height: 80px;
     margin-right: 10px;
     margin-bottom: 40px;
+    transform: rotate(-20deg);
 }
 
 .miningAnimal {
@@ -89,13 +90,13 @@ main {
 
 @keyframes miningAnimal {
     0% {
-        transform: rotate(-20deg);
-        transition: transform 0.5s ease-in-out;
+        transform: rotate(0deg);
     }
-
     50% {
         transform: rotate(40deg);
-        transition: transform 0.5s ease-in-out;
+    }
+    100% {
+        transform: rotate(0deg);
     }
 }
 
