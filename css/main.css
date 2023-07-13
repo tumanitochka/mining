@@ -50,12 +50,13 @@ header {
     box-shadow: 0 4px 2px -2px black;
 }
 
-.main:before {
-    content: url(../css/img/bg-main.png);
-    margin-top: -10px;
+.mainHead {
+    width: 100%;
+    height: 20px;
+    margin-top: -20px;
 }
 
-.main img {
+.mainFerma {
     width: 100%;
     height: 180px;
     margin-top: -30px;
@@ -63,7 +64,7 @@ header {
 
 .dialog {
     display: flex;
-    width: 450px;
+    width: 90%;
     height: auto;
     margin-top: 10px;
 }
