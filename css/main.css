@@ -55,8 +55,9 @@ main {
     padding-left: 10px;
 }
 
-.pp p {
-    text-indent: 3ch;
+.pp p,
+.pp h4 {
+    text-indent: 2ch;
 }
 
 .mainHead {
@@ -215,5 +216,12 @@ footer p {
     width: 25px;
 }
 
-footer a {opacity: 0.2;}
-footer a:hover {filter:none;opacity: 1;}
+footer a {
+    opacity: 0.2;
+}
+
+footer a:hover {
+    filter: none;
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+}
