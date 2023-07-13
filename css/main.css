@@ -18,10 +18,12 @@ a {
 
 a:hover {
     filter: brightness(1.5);
+    transition: filter 0.5s ease-in-out;
 }
 
 a:active {
     filter: brightness(1.2);
+    transition: filter 0.5s ease-in-out;
 }
 
 header {
@@ -116,10 +118,12 @@ header {
 
 .btn:hover {
     filter: brightness(1.5);
+    transition: filter 0.5s ease-in-out;
 }
 
 .btn:active {
     filter: brightness(1.2);
+    transition: filter 0.5s ease-in-out;
 }
 
 .startNavigation {
@@ -153,7 +157,7 @@ header {
     background: linear-gradient(0deg, rgb(69, 46, 34) 14.000000000000002%, rgba(176,136,102,1) 93%);
     text-shadow: 0px -1px 0px #000;
     color: #e6c8aa;
-    margin-left: 3px;
+    margin-left: 8px;
     padding: 10px;
 }
 
