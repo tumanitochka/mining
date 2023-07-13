@@ -43,7 +43,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 30px;
     width: 100%;
     height: 260px;
     background-color: #8d6347;
@@ -91,9 +91,10 @@ header {
 }
 
 .btn {
-    background: rgb(86,56,46);
-    background: linear-gradient(0deg, rgba(86,56,46,1) 20%, rgba(185,137,101,1) 100%);
+    background: rgb(97,65,49);
+    background: linear-gradient(0deg, rgba(97,65,49,1) 14.000000000000002%, rgba(176,136,102,1) 93%);
     text-shadow: 0px -1px 0px #000;
+    box-shadow: inset 0px 0px 3px rgba(0,0,0,0.5);
     color: #e6c8aa;
     border: none;
     border-radius: 5px;
