@@ -28,7 +28,7 @@ a:active {
 header {
     display: flex;
     justify-content: center;
-    background-image: url(./css/img/bg-header.png);
+    background-image: url(../css/img/bg-header.png);
     background-size: 100% 100%;
     width: 480px;
     height: 57px;
@@ -51,7 +51,7 @@ header {
 }
 
 .main:before {
-    content: url(./css/img/bg-main.png);
+    content: url(../css/img/bg-main.png);
     margin-top: -10px;
 }
 
@@ -79,7 +79,7 @@ header {
 }
 
 .dialog:before {
-    content: url(./css/img/man.png);
+    content: url(../css/img/man.png);
 
 }
 
@@ -91,7 +91,7 @@ header {
 }
 
 .btn {
-    background-image: url(./css/img/startButton.png);
+    background-image: url(../css/img/startButton.png);
     color: #e6c8aa;
     border: none;
     border-radius: 5px;
