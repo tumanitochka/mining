@@ -90,9 +90,10 @@ header {
 
 .start {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     margin-top: 50px;
-    gap: 20px;
+    gap: 10px;
 }
 
 .btn {
@@ -139,6 +140,22 @@ header {
     margin-bottom: 10px;
 }
 
+.navOnline {
+    display: flex;
+}
+
+.btnOnline {
+    border-radius: 5px;
+}
+
+.btnOnline:after {
+    content: "0";
+    background: linear-gradient(0deg, rgb(69, 46, 34) 14.000000000000002%, rgba(176,136,102,1) 93%);
+    text-shadow: 0px -1px 0px #000;
+    color: #e6c8aa;
+    margin-left: 3px;
+    padding: 10px;
+}
 
 footer {
     display: flex;
