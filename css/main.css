@@ -35,7 +35,7 @@ header {
 
 .head {
     margin-top: 18.5px;
-    margin-left: -100px;
+    margin-left: -20%;
     color: #e6c8aa;
 }
 
@@ -91,7 +91,9 @@ header {
 }
 
 .btn {
-    background-image: url(../css/img/startButton.png);
+    background: rgb(86,56,46);
+    background: linear-gradient(0deg, rgba(86,56,46,1) 20%, rgba(185,137,101,1) 100%);
+    text-shadow: 0px -1px 0px #000;
     color: #e6c8aa;
     border: none;
     border-radius: 5px;
