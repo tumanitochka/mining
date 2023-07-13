@@ -1,0 +1,144 @@
+html, div, span, h1, h2, h3, form, p, img, ul, li {padding: 0;margin: 0;}
+body {margin: 0 auto;max-width:480px;color:#e6c8aa;}
+body, input, textarea {font-family: Verdana, Arial, Tahoma, Sans-Serif;}
+table {border: 0;border-collapse: collapse;}
+img {border: 0;vertical-align: middle;max-width:100%;}
+
+html {
+    background-color:#e6c8aa;
+}
+
+body {
+    background-color: #261b1b;
+    height: 100%;
+}
+
+a {
+    color: #e6c8aa;
+}
+
+a:hover {
+    filter: brightness(1.5);
+}
+
+a:active {
+    filter: brightness(1.2);
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    background-image: url(/css/img/bg-header.png);
+    background-size: 100% 100%;
+    width: 480px;
+    height: 57px;
+}
+
+.head {
+    margin-top: 18.5px;
+    margin-left: -100px;
+    color: #e6c8aa;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    height: 260px;
+    background-color: #8d6347;
+    box-shadow: 0 4px 2px -2px black;
+}
+
+.main:before {
+    content: url(/css/img/bg-main.png);
+    margin-top: -10px;
+}
+
+.main img {
+    width: 480px;
+    height: 180px;
+    margin-top: -30px;
+}
+
+.dialog {
+    display: flex;
+    width: 450px;
+    height: 50px;
+    margin-top: 10px;
+}
+
+.dialogMan {
+    background-color: #e6c8aa;
+    color: #734c3d;
+    font-size: 10px;
+    line-height: 15px;
+    border-radius: 5px;
+    width: 380px;
+    padding: 10px;
+}
+
+.dialog:before {
+    content: url(/css/img/man.png);
+
+}
+
+.start {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 20px;
+}
+
+.btn {
+    background-image: url(/css/img/startButton.png);
+    color: #e6c8aa;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.startButton {
+    width: 150px;
+}
+
+.btn:hover {
+    filter: brightness(1.5);
+}
+
+.btn:active {
+    filter: brightness(1.2);
+}
+
+.startNavigation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.btnChat,
+.btnForum {
+    width: 80px;
+}
+
+.navTwo {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+    padding-bottom: 20px;
+}
+
+footer p {
+    margin-top: 10px;
+}
