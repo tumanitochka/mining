@@ -153,7 +153,7 @@ header {
 }
 
 .btnOnline:after {
-    content: "0";
+    content: "10000";
     background: linear-gradient(0deg, rgb(69, 46, 34) 14.000000000000002%, rgba(176,136,102,1) 93%);
     text-shadow: 0px -1px 0px #000;
     color: #e6c8aa;
