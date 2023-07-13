@@ -58,6 +58,7 @@ main {
 .pp p,
 .pp h4 {
     text-indent: 2ch;
+    line-height: 25px;
 }
 
 .mainHead {
