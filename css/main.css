@@ -74,7 +74,8 @@ header {
     background-image: url(../css/img/man.png);
     background-repeat: no-repeat;
     background-size: 100%;
-    width: 59px;
+    width: 80px;
+    height: auto;
 }
 
 .dialogMan {
