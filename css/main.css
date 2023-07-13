@@ -72,6 +72,7 @@ header {
 .dialog:before {
     content: "";
     background-image: url(../css/img/man.png);
+    background-repeat: no-repeat;
     background-size: 100%;
     width: 59px;
 }
