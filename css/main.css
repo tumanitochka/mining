@@ -65,8 +65,12 @@ header {
 .dialog {
     display: flex;
     width: 450px;
-    height: 50px;
+    height: auto;
     margin-top: 10px;
+}
+
+.dialog:before {
+    content: url(../css/img/man.png);
 }
 
 .dialogMan {
@@ -77,11 +81,6 @@ header {
     border-radius: 5px;
     width: 380px;
     padding: 10px;
-}
-
-.dialog:before {
-    content: url(../css/img/man.png);
-
 }
 
 .start {
